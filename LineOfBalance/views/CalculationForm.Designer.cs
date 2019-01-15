@@ -58,9 +58,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(33, 63);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(110, 13);
+            this.label2.Size = new System.Drawing.Size(86, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Total project duration:";
+            this.label2.Text = "Project deadline:";
             // 
             // tbProjectDuration
             // 
@@ -109,6 +109,7 @@
             this.Name = "CalculationForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CalculationForm";
+            this.Load += new System.EventHandler(this.CalculationForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

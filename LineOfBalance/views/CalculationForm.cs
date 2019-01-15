@@ -16,5 +16,10 @@ namespace LineOfBalance.views
         {
             InitializeComponent();
         }
+
+        private void CalculationForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
