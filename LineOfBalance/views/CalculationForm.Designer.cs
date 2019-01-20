@@ -93,6 +93,7 @@
             this.btnCalculate.TabIndex = 6;
             this.btnCalculate.Text = "Calculate Line of Balance";
             this.btnCalculate.UseVisualStyleBackColor = true;
+            this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
             // CalculationForm
             // 

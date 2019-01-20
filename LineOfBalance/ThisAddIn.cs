@@ -5,6 +5,7 @@ using System.Text;
 using System.Xml.Linq;
 using MSProject = Microsoft.Office.Interop.MSProject;
 using Office = Microsoft.Office.Core;
+using LineOfBalance.ribbon;
 
 namespace LineOfBalance
 {
@@ -18,6 +19,10 @@ namespace LineOfBalance
         {
         }
 
+        protected override Office.IRibbonExtensibility CreateRibbonExtensibilityObject()
+        {
+            return new StartupRibbon(this);
+        }
         #region VSTO generated code
 
         /// <summary>
